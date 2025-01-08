@@ -1,0 +1,61 @@
+'''
+In python it is possible to create virtual enviroments.
+Once created, this virtual enviroment keeps isolated from the rest of the
+system so it is a perfect test enviroment to avoid damages to the system.
+It is possible create these enviroments using different versions of python
+even different versions of modules to check if everything works as it should
+do.
+There are 2 different ways of create a virtual enviroment:
+    - venv
+    - virtualenv
+'''
+
+'''
+====================================VENV=====================================
+It is the easiest way. This module is implemented directly in python from
+version 3.3.
+
+To create a virtual enviroment, execute in a terminal:
+
+    ~python3 -m venv test
+        |
+        |-> test is the name of the folder where keep all the virtual
+            environment files to.
+
+To launch the 'test' virtual environment, inside the folder:
+
+    ~source bin/activate
+
+To stop the virtual enviroment:
+
+    ~deactivate
+'''
+
+
+'''
+=============================== VIRTUALENV ====================================
+The virtualenv module has some advantages over venv:
+    ﻿• It’s faster
+    • Easier to extend
+    • Can create virtual environments for multiple Python versions
+    • Can be upgraded via pip
+    • Has a rich programmatic API
+
+Install the viertualenv module is mandatory:
+
+    ~pip install virtualenv
+
+To create a virtual environment:
+
+    ~virtualenv test
+        |
+        |->'test' is the folder name for the virtual environment
+
+To launch the 'test' virtual environment, inside the folder:
+
+    ~source bin/activate
+
+To stop the virtual enviroment:
+
+    ~deactivate
+'''
