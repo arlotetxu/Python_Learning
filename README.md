@@ -1,4 +1,4 @@
-![Conceptos de Python](https://via.placeholder.com/1200x400.png?text=Conceptos+Relevantes+de+Python)  
+![Conceptos de Python](https://github.com/arlotetxu/Python_Learning/blob/main/cheatsheet.png)  
 
 # Conceptos Relevantes de Python 📘🐍
 
